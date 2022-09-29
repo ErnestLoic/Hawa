@@ -1,0 +1,40 @@
+<ion-content [fullscreen]="true" >
+  <div class="header">
+      <ion-label>
+        <h1>Vos cours</h1>
+      </ion-label>
+  </div>
+  <div>
+    <ion-searchbar placeholder="Rechercher un cours" inputmode="search" type="decimal" [debounce]="250" showCancelButton="never" searchIcon="search">
+    </ion-searchbar> 
+    <ion-card mode="ios" class="card">
+      <ion-card-content>
+        <div class="ion-text-center">
+          <ion-icon name="add-circle"></ion-icon>
+        </div>
+        <div class="button">
+          <ion-button  expand="block" shape="round">
+            Ajouter un cours
+          </ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>   
+    <div>
+      <ion-card mode="ios" *ngFor="let s of Seances">
+        <ion-card-content >
+          <div>
+            <ion-card-title>
+              {{s.titre}}
+            </ion-card-title>
+          </div>
+                <ion-icon name="person-outline"></ion-icon>
+                <ion-label>{{s.responsable}}</ion-label>
+                <div>
+                  <ion-badge class="i-badge2">Semestre {{s.semestre}}</ion-badge>
+                  <ion-badge class="i-badge1">8 heures</ion-badge>
+                </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

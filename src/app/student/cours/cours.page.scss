@@ -1,0 +1,184 @@
+ion-content{
+    --padding-start: 1.5rem;
+    --padding-end: 1.5rem;
+    .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+    ion-icon{
+      color: var(--ion-color-bluebuttons);
+    }
+  }
+  
+  ion-searchbar {
+    --background: var(--ion-color-searchbox);
+    --border-radius: 15px;
+    --box-shadow: 0px;
+    --cancel-button-color: var(--ion-color-searchword);
+    --clear-button-color: var(--ion-color-searchword);
+    --color: var(--ion-color-searchword);
+    --icon-color: var(--ion-color-searchword);
+    --placeholder-color: var(--ion-color-searchword);
+    --placeholder-font-style: initial;
+    --placeholder-font-weight: normal;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  *{
+    font-family: Poppins !important;
+  }
+  
+  h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+   ion-item{
+     color: var(--ion-color-words);
+     p{
+      font-size: 10px;
+      margin: 0px;
+    }
+   }
+  
+   ion-card {
+    --background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px !important;
+  }
+  
+  ion-card-title {
+    font-size:13px;
+    text-transform: none;
+    text-decoration: none;
+    color: var(--ion-color-words);
+  }
+  
+  .badge{
+    --background: #cff7ca ;
+    --color: #6bcf5d;
+    --padding-bottom: 7px;
+    --padding-end: 7px;
+    --padding-start: 7px;
+    --padding-top: 7px;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 7px;
+  }
+  
+  ion-card-content{
+    ion-label{
+      font-size: 11px;
+      margin-left: 10px;
+    }
+    ion-icon{
+      margin-top: 10px;
+    }
+   
+  }
+  
+ion-segment{
+  --background: none;
+  ion-segment-button{
+    font-size: 11px;
+    --border-width:0;
+    --padding-start:4px;
+    --padding-bottom:4px;
+    --padding-end:4px;
+    --padding-top:4px;
+    --background-checked: var(--ion-color-clearblue);
+    --indicator-color: transparent !important;
+    --color: var(--ion-color-blue);
+    --color-checked: var(--ion-color-blue);
+    --border-radius: 30px;
+    text-transform: none;
+    font-weight: normal;
+  }
+} 
+
+.i-badge1 {
+  --background: var(--ion-color-clearblue);
+  --color: var(--ion-color-blue);
+  --padding-bottom: 7px;
+  --padding-end: 7px;
+  --padding-start: 7px;
+  --padding-top: 7px;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.i-badge2 {
+  --background: #f7d5ca ;
+  --color: var(--ion-color-red);
+  --padding-bottom: 7px;
+  --padding-end: 7px;
+  --padding-start: 7px;
+  --padding-top: 7px;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 12px;
+}
+.card{
+  --color: var(--ion-color-blue);
+  --background:#f6fffe;
+  box-shadow: none;
+  ion-icon {
+    color:var(--ion-color-clearblue);
+  }
+  h1{
+    font-weight: normal;
+    font-size: 12px;
+  }
+  ion-card-content{
+    padding: 2px;
+  }
+}
+
+ion-button {
+  --background: var(--ion-color-clearblue);
+  --background-activated: var(--ion-color-clearblue);
+  --background-activated-opacity: 1;
+  --background-focused: var(--ion-color-clearblue);
+  --background-focused-opacity: 1;
+  --background-hover: var(--ion-color-clearblue);
+  --background-hover-opacity: 1;
+  --border-color: var(--ion-color-clearblue);
+  --border-radius: 20px;
+  --border-style: none;
+  --border-width: 0px;
+  --box-shadow: none;
+  --color: var(--ion-color-blue);
+  --color-activated: var(--ion-color-blue);
+  --color-focused: var(--ion-color-blue);
+  --color-hover: var(--ion-color-blue);
+  --opacity: 1;
+  --padding-bottom: 4px;
+  --padding-end: 4px;
+  --padding-start: 4px;
+  --padding-top: 4px;
+  --ripple-color: #1e1e1e;
+  --transition: background-color 15ms linear;
+  font-size: 12px;
+  margin-bottom: 12px;
+  width: 150px;
+}
+.button{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}

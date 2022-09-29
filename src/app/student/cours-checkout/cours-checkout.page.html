@@ -1,0 +1,43 @@
+<ion-header class="ion-no-border ion-padding">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{seance.titre}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-badge class="badge" mode="ios">How it works :</ion-badge>
+  <p class="ion-padding">
+    Marquez la présence du professeur au début et à la fin du cours. Celui-ci aura besoin d'enter un code de validation confidentiel pour se rassurer de son identité.
+  </p>
+<ion-card mode="ios">
+  <ion-card-header>
+    <span>
+      <ion-icon name="time"></ion-icon>
+      <ion-card-subtitle >Heure de début prévue</ion-card-subtitle>
+    </span>
+    <ion-card-title>8h30</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <div class="button">
+        <ion-button expand="block" shape="round" (click)="presentModal()">Marquer la présence</ion-button>
+    </div>
+  </ion-card-content>
+</ion-card>
+<ion-card mode="ios">
+  <ion-card-header>
+    <span>
+      <ion-icon name="time"></ion-icon>
+      <ion-card-subtitle >Heure de fin prévue</ion-card-subtitle>
+    </span>
+    <ion-card-title>12h00</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <div class="button">
+        <ion-button expand="block" shape="round" (click)="presentModal()">Marquer la présence</ion-button>
+    </div>
+  </ion-card-content>
+</ion-card>
+</ion-content>

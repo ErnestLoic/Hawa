@@ -1,0 +1,25 @@
+*{
+    font-family: Poppins !important;
+  }
+ion-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+ion-label{
+    font-size: 12px !important;
+}
+ion-icon{
+    font-size: 20px;
+    color: var(--ion-color-blue);
+}
+
+footer{
+    p{
+        color: var(--ion-color-words);
+        font-size: 12px;
+    }
+}
+
+ion-card-content{
+    padding: 2px;
+}
